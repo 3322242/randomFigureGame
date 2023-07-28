@@ -1,0 +1,37 @@
+.shape1 {
+	background-color: darkslategray;
+	height: 150px;
+	width: 150px;
+	display: block;
+	position: relative;
+	border: 2px solid black;
+}
+
+.shape2 {
+	width: 140px;
+   height: 140px;
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+	 border: 2px solid black;
+	 position: relative;
+}
+
+.shape3 {
+	width: 140px; 
+   height: 80px;
+	 border: 2px solid black;
+	 position: relative;
+}
+
+.shape4 {
+	width: 130px; 
+   height: 75px;
+	 border: 2px solid black;
+   /* Skew */
+   -webkit-transform: skew(20deg); 
+   -moz-transform: skew(20deg); 
+   -o-transform: skew(20deg);
+   transform: skew(20deg);
+	 position: relative;
+}
